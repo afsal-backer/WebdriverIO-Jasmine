@@ -1,0 +1,95 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616656358260' stop='1616656360532'>
+    <name>WaitUntil</name>
+    <title>WaitUntil</title>
+    <test-cases>
+        <test-case start='1616656358261' status='failed' stop='1616656360517'>
+            <name>should wait until the button text changes to Add</name>
+            <title>should wait until the button text changes to Add</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps>
+                <step start='1616656358264' status='passed' stop='1616656360499'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='3bcc93dd-7f63-46c3-953b-bb931d52b08e-attachment.json' type='application/json' size='67'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616656360500' status='failed' stop='1616656360517'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='634cd578-fe7d-43c9-ae70-06715a3000c3-attachment.json' type='application/json' size='68'/>
+                    </attachments>
+                    <steps>
+                        <step start='1616656360509' status='failed' stop='1616656360517'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=89.0.4389.90)</message>
+                <stack-trace>    at &lt;Jasmine>
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Internet.get pageButton [as pageButton] (/Users/abacker/Desktop/WedriverJasmine/pages/internet.page.js:105:31)
+                    at Internet.clickPageButton (/Users/abacker/Desktop/WedriverJasmine/pages/internet.page.js:111:14)
+                    at UserContext.&lt;anonymous> (/Users/abacker/Desktop/WedriverJasmine/test/waitUntil.js:6:22)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1616656360517' status='failed' stop='1616656360531'>
+            <name>should wait until the button text changes to Remove</name>
+            <title>should wait until the button text changes to Remove</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps>
+                <step start='1616656360518' status='failed' stop='1616656360531'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e8cd770b-cbc4-4ca1-94f9-85e486c08f31-attachment.json' type='application/json' size='68'/>
+                    </attachments>
+                    <steps>
+                        <step start='1616656360524' status='failed' stop='1616656360531'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=89.0.4389.90)</message>
+                <stack-trace>    at &lt;Jasmine>
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Internet.get pageButton [as pageButton] (/Users/abacker/Desktop/WedriverJasmine/pages/internet.page.js:105:31)
+                    at Internet.clickPageButton (/Users/abacker/Desktop/WedriverJasmine/pages/internet.page.js:111:14)
+                    at UserContext.&lt;anonymous> (/Users/abacker/Desktop/WedriverJasmine/test/waitUntil.js:16:22)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

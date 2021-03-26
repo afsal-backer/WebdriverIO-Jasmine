@@ -1,0 +1,84 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616576019378' stop='1616576027042'>
+    <name>Element actions</name>
+    <title>Element actions</title>
+    <test-cases>
+        <test-case start='1616576019379' status='failed' stop='1616576027041'>
+            <name>Should click</name>
+            <title>Should click</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps>
+                <step start='1616576019381' status='passed' stop='1616576023164'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='47ce42d9-37fa-412b-9a4a-46f34f22fa52-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616576023165' status='passed' stop='1616576023175'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d97b607b-e30c-42ab-a258-68a5d1ef1b5f-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='d3b7ae27-6cda-429b-adcd-e2187e02fe2d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616576023180' status='passed' stop='1616576023187'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='84e436f9-3eda-4e0a-a542-fc892c55d0e3-attachment.json' type='application/json' size='8337'/>
+                        <attachment title='Response' source='8d547c26-54ef-4957-8d4a-b4687f8744f0-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616576023187' status='passed' stop='1616576023193'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5a4845ec-3065-4fe3-a340-f4baea39a371-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='10689980-67b3-4993-9004-447feca432cf-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616576023195' status='passed' stop='1616576023598'>
+                    <name>POST /session/:sessionId/element/bb0c0449-2167-42f2-b3e3-b97492c2c7c4/click</name>
+                    <title>POST /session/:sessionId/element/bb0c0449-2167-42f2-b3e3-b97492c2c7c4/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1616576026599' status='passed' stop='1616576026606'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='0da19a6d-e426-47b6-ba3f-293737ba75c2-attachment.json' type='application/json' size='43'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616576026607' status='passed' stop='1616576027040'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b51769db-a85e-414a-b11e-666554663081-attachment.png' type='image/png' size='123375'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: expect(...).tobe is not a function</message>
+                <stack-trace>TypeError: expect(...).tobe is not a function
+                    at UserContext.&lt;anonymous> (/Users/abacker/Desktop/WedriverJasmine/test/elementActions.test.js:7:34)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

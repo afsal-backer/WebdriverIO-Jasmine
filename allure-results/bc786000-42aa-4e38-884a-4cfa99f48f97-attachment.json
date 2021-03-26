@@ -1,0 +1,125 @@
+{
+  "id": {
+    "sessionId": "4f14a2904b93ce51cb42ad67bcf4df26",
+    "elementId": "45fbaa19-efd5-48b8-8e16-bac0f64d8ac0",
+    "element-6066-11e4-a52e-4f735466cecf": "45fbaa19-efd5-48b8-8e16-bac0f64d8ac0",
+    "selector": "//iframe[@id=\"mce_0_ifr\"]",
+    "parent": {
+      "sessionId": "4f14a2904b93ce51cb42ad67bcf4df26",
+      "capabilities": {
+        "acceptInsecureCerts": true,
+        "browserName": "chrome",
+        "browserVersion": "89.0.4389.90",
+        "chrome": {
+          "chromedriverVersion": "89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294})",
+          "userDataDir": "/var/folders/8v/z503nb6n6m9byyvlb6g5bf9c0000gp/T/.com.google.Chrome.Rfgtyh"
+        },
+        "goog:chromeOptions": {
+          "debuggerAddress": "localhost:60732"
+        },
+        "networkConnectionEnabled": false,
+        "pageLoadStrategy": "normal",
+        "platformName": "mac os x",
+        "proxy": {},
+        "setWindowRect": true,
+        "strictFileInteractability": false,
+        "timeouts": {
+          "implicit": 0,
+          "pageLoad": 300000,
+          "script": 30000
+        },
+        "unhandledPromptBehavior": "dismiss and notify",
+        "webauthn:extension:largeBlob": true,
+        "webauthn:virtualAuthenticators": true
+      },
+      "config": {
+        "specs": [
+          "./test/specs/myFirstTest.js"
+        ],
+        "suites": {},
+        "exclude": [],
+        "logLevel": "silent",
+        "logLevels": {},
+        "excludeDriverLogs": [],
+        "bail": 0,
+        "waitforInterval": 500,
+        "waitforTimeout": 10000,
+        "framework": "jasmine",
+        "reporters": [
+          "spec",
+          [
+            "allure",
+            {
+              "outputDir": "allure-results"
+            }
+          ]
+        ],
+        "services": [
+          "chromedriver"
+        ],
+        "maxInstances": 10,
+        "maxInstancesPerCapability": 100,
+        "filesToWatch": [],
+        "connectionRetryTimeout": 120000,
+        "connectionRetryCount": 3,
+        "execArgv": [],
+        "runnerEnv": {},
+        "runner": "local",
+        "specFileRetries": 0,
+        "specFileRetriesDelay": 0,
+        "specFileRetriesDeferred": false,
+        "reporterSyncInterval": 100,
+        "reporterSyncTimeout": 5000,
+        "cucumberFeaturesWithLineNumbers": [],
+        "autoCompileOpts": {
+          "autoCompile": true,
+          "tsNodeOpts": {
+            "transpileOnly": true
+          },
+          "babelOpts": {}
+        },
+        "mochaOpts": {
+          "timeout": 10000
+        },
+        "jasmineOpts": {
+          "defaultTimeoutInterval": 60000
+        },
+        "cucumberOpts": {
+          "timeout": 10000
+        },
+        "onPrepare": [],
+        "onWorkerStart": [],
+        "before": [],
+        "beforeSession": [],
+        "beforeSuite": [],
+        "beforeHook": [],
+        "beforeTest": [],
+        "beforeCommand": [],
+        "afterCommand": [],
+        "afterTest": [
+          null
+        ],
+        "afterHook": [],
+        "afterSuite": [],
+        "afterSession": [],
+        "after": [],
+        "onComplete": [],
+        "onReload": [],
+        "beforeFeature": [],
+        "beforeScenario": [],
+        "beforeStep": [],
+        "afterStep": [],
+        "afterScenario": [],
+        "afterFeature": [],
+        "baseUrl": "https://the-internet.herokuapp.com/",
+        "_": [
+          "./wdio.conf.js"
+        ],
+        "$0": "node_modules/.bin/wdio",
+        "ignoredWorkerServices": []
+      },
+      "_NOT_FIBER": true
+    },
+    "isReactElement": false
+  }
+}

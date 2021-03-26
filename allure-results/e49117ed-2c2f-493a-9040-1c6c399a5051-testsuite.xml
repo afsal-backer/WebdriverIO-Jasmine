@@ -1,0 +1,65 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616502060160' stop='1616502068873'>
+    <name>to open heroku app</name>
+    <title>to open heroku app</title>
+    <test-cases>
+        <test-case start='1616502060161' status='pending' stop='1616502060162'>
+            <name>open the homepage</name>
+            <title>open the homepage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1616502060163' status='failed' stop='1616502068872'>
+            <name>Window handles</name>
+            <title>Window handles</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps>
+                <step start='1616502060166' status='passed' stop='1616502068410'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='3572854b-8d03-48b6-a729-560c104b8858-attachment.json' type='application/json' size='57'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616502068410' status='passed' stop='1616502068414'>
+                    <name>GET /session/:sessionId/window</name>
+                    <title>GET /session/:sessionId/window</title>
+                    <attachments>
+                        <attachment title='Response' source='bd901c72-520c-4245-b072-fcd0b4f5c3c2-attachment.json' type='application/json' size='43'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616502068415' status='passed' stop='1616502068870'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='fb817a7f-2294-4178-b1c9-ec47cb048d31-attachment.png' type='image/png' size='82987'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>ReferenceError: windows is not defined</message>
+                <stack-trace>ReferenceError: windows is not defined
+                    at UserContext.&lt;anonymous> (/Users/abacker/Desktop/WedriverJasmine/test/specs/myFirstTest.js:46:24)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

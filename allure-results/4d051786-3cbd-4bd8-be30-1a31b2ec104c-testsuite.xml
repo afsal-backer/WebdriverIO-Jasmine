@@ -1,0 +1,112 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616504745052' stop='1616504749910'>
+    <name>to open heroku app</name>
+    <title>to open heroku app</title>
+    <test-cases>
+        <test-case start='1616504745053' status='pending' stop='1616504745054'>
+            <name>open the homepage</name>
+            <title>open the homepage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1616504745054' status='pending' stop='1616504745054'>
+            <name>Window handles</name>
+            <title>Window handles</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1616504745055' status='failed' stop='1616504749908'>
+            <name>Switch to iFrame</name>
+            <title>Switch to iFrame</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps>
+                <step start='1616504745057' status='passed' stop='1616504749348'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='e9ab22e8-a002-48e3-a72b-a8d35ec6b4a4-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616504749350' status='passed' stop='1616504749377'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='07d6b6b8-3eec-4df4-bebc-0400f06ba12c-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='749d9580-4c38-41fb-ba09-6d39601eee48-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616504749381' status='passed' stop='1616504749398'>
+                    <name>POST /session/:sessionId/frame</name>
+                    <title>POST /session/:sessionId/frame</title>
+                    <attachments>
+                        <attachment title='Request' source='99212843-df4c-4333-998d-9d68b3f0d066-attachment.json' type='application/json' size='3575'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616504749398' status='passed' stop='1616504749408'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c0e82aab-2f88-4737-bbf3-901edce005d3-attachment.json' type='application/json' size='76'/>
+                        <attachment title='Response' source='e34af35e-0983-43f3-b296-3d5c3604a07e-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616504749410' status='passed' stop='1616504749427'>
+                    <name>POST /session/:sessionId/element/4761ba02-fe5f-4de5-aeb9-9f5859dc5088/clear</name>
+                    <title>POST /session/:sessionId/element/4761ba02-fe5f-4de5-aeb9-9f5859dc5088/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1616504749427' status='passed' stop='1616504749434'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2d926635-fe87-42c0-8e2c-c164340465b2-attachment.json' type='application/json' size='76'/>
+                        <attachment title='Response' source='f748a34e-16df-4da0-9c6b-dba4e23e6152-attachment.json' type='application/json' size='1875'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616504749436' status='passed' stop='1616504749907'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f9671242-f26a-4521-a5b6-54be9cd77b8b-attachment.png' type='image/png' size='108102'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: $(...).sendKeys is not a function</message>
+                <stack-trace>TypeError: $(...).sendKeys is not a function
+                    at UserContext.&lt;anonymous> (/Users/abacker/Desktop/WedriverJasmine/test/specs/myFirstTest.js:75:52)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

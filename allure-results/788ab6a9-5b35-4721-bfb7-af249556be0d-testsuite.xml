@@ -1,0 +1,235 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616656434622' stop='1616656436656'>
+    <name>Test Heroku</name>
+    <title>Test Heroku</title>
+    <test-cases>
+        <test-case start='1616656434623' status='failed' stop='1616656436500'>
+            <name>Test homepage elements</name>
+            <title>Test homepage elements</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps>
+                <step start='1616656434625' status='failed' stop='1616656436499'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='dce2fa79-760e-4b5d-9b9e-55fb18e0b138-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps>
+                        <step start='1616656436484' status='failed' stop='1616656436499'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable: chrome not reachable
+                  (Session info: chrome=89.0.4389.90)</message>
+                <stack-trace>    at &lt;Jasmine>
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at UserContext.&lt;anonymous> (/Users/abacker/Desktop/WedriverJasmine/test/herokuTest.js:7:17)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1616656436500' status='failed' stop='1616656436542'>
+            <name>Footer is displayed</name>
+            <title>Footer is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps>
+                <step start='1616656436501' status='failed' stop='1616656436542'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6a1ebe58-8d07-4dc0-9802-bd5b298630be-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps>
+                        <step start='1616656436528' status='failed' stop='1616656436542'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable: chrome not reachable
+                  (Session info: chrome=89.0.4389.90)</message>
+                <stack-trace>    at &lt;Jasmine>
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Internet.get pageFooter [as pageFooter] (/Users/abacker/Desktop/WedriverJasmine/pages/internet.page.js:5:31)
+                    at UserContext.&lt;anonymous> (/Users/abacker/Desktop/WedriverJasmine/test/herokuTest.js:17:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1616656436542' status='failed' stop='1616656436577'>
+            <name>Does the header exist</name>
+            <title>Does the header exist</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps>
+                <step start='1616656436543' status='failed' stop='1616656436577'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='cb0dba06-849f-443b-aff7-dffd05ae943c-attachment.json' type='application/json' size='54'/>
+                    </attachments>
+                    <steps>
+                        <step start='1616656436561' status='failed' stop='1616656436577'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable: chrome not reachable
+                  (Session info: chrome=89.0.4389.90)</message>
+                <stack-trace>    at &lt;Jasmine>
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Internet.get pageHeader [as pageHeader] (/Users/abacker/Desktop/WedriverJasmine/pages/internet.page.js:3:31)
+                    at UserContext.&lt;anonymous> (/Users/abacker/Desktop/WedriverJasmine/test/herokuTest.js:21:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1616656436579' status='failed' stop='1616656436605'>
+            <name>Footer is displayed in viewport ?</name>
+            <title>Footer is displayed in viewport ?</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps>
+                <step start='1616656436579' status='failed' stop='1616656436605'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='783f6515-51ea-4c83-ae79-629824d516da-attachment.json' type='application/json' size='54'/>
+                    </attachments>
+                    <steps>
+                        <step start='1616656436592' status='failed' stop='1616656436605'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable: chrome not reachable
+                  (Session info: chrome=89.0.4389.90)</message>
+                <stack-trace>    at &lt;Jasmine>
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Internet.get pageHeader [as pageHeader] (/Users/abacker/Desktop/WedriverJasmine/pages/internet.page.js:3:31)
+                    at UserContext.&lt;anonymous> (/Users/abacker/Desktop/WedriverJasmine/test/herokuTest.js:25:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1616656436605' status='failed' stop='1616656436630'>
+            <name>Is subheader enabled ?</name>
+            <title>Is subheader enabled ?</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps>
+                <step start='1616656436606' status='failed' stop='1616656436630'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='06b8a793-181a-4463-8ecd-41db6f8a6580-attachment.json' type='application/json' size='46'/>
+                    </attachments>
+                    <steps>
+                        <step start='1616656436619' status='failed' stop='1616656436630'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable: chrome not reachable
+                  (Session info: chrome=89.0.4389.90)</message>
+                <stack-trace>    at &lt;Jasmine>
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Internet.get subHeading [as subHeading] (/Users/abacker/Desktop/WedriverJasmine/pages/internet.page.js:4:31)
+                    at UserContext.&lt;anonymous> (/Users/abacker/Desktop/WedriverJasmine/test/herokuTest.js:29:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1616656436630' status='failed' stop='1616656436654'>
+            <name>Click on the first link</name>
+            <title>Click on the first link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps>
+                <step start='1616656436630' status='failed' stop='1616656436654'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='27cc3b2d-a184-49c9-8b24-9a3fbf2c6a9b-attachment.json' type='application/json' size='64'/>
+                    </attachments>
+                    <steps>
+                        <step start='1616656436642' status='failed' stop='1616656436654'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable: chrome not reachable
+                  (Session info: chrome=89.0.4389.90)</message>
+                <stack-trace>    at &lt;Jasmine>
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Internet.get firstLink [as firstLink] (/Users/abacker/Desktop/WedriverJasmine/pages/internet.page.js:8:30)
+                    at Internet.clickOnLink (/Users/abacker/Desktop/WedriverJasmine/pages/internet.page.js:70:17)
+                    at UserContext.&lt;anonymous> (/Users/abacker/Desktop/WedriverJasmine/test/herokuTest.js:33:22)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

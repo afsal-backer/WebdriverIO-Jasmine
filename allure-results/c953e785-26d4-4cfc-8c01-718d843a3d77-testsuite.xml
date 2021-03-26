@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616482882773' stop='1616482890952'>
+    <name>to open heroku app</name>
+    <title>to open heroku app</title>
+    <test-cases>
+        <test-case start='1616482882774' status='failed' stop='1616482890950'>
+            <name>open the homepage</name>
+            <title>open the homepage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps>
+                <step start='1616482882776' status='passed' stop='1616482890459'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='67e2f918-9f4b-4fef-9d17-ece7d0debb11-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616482890460' status='passed' stop='1616482890466'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='3e772500-a66c-439d-b932-b11a3476ef8b-attachment.json' type='application/json' size='14'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616482890468' status='passed' stop='1616482890948'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e1a8a44f-2692-4587-9542-fac32ddd115e-attachment.png' type='image/png' size='229032'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>CompoundError: One or more errors occurred. ---
+                    Error: Expected 'The Internet' to be 'The'.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (/Users/abacker/Desktop/WedriverJasmine/test/specs/myFirstTest.js:7:23)
+                --- End of stack trace ---
+                    error properties: Object({ matcherName: 'toBe', passed: false, expected: 'The', actual: 'The Internet' })
+                    Error: Expected 'The Internet' to be 'The'.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (/Users/abacker/Desktop/WedriverJasmine/test/specs/myFirstTest.js:7:23)
+                --- End of stack trace ---</message>
+                <stack-trace>Error: CompoundError: One or more errors occurred. ---
+                    Error: Expected 'The Internet' to be 'The'.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (/Users/abacker/Desktop/WedriverJasmine/test/specs/myFirstTest.js:7:23)
+                --- End of stack trace ---
+                    error properties: Object({ matcherName: 'toBe', passed: false, expected: 'The', actual: 'The Internet' })
+                    Error: Expected 'The Internet' to be 'The'.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (/Users/abacker/Desktop/WedriverJasmine/test/specs/myFirstTest.js:7:23)
+                --- End of stack trace ---
+                    at Object.exports.getErrorFromFailedTest (/Users/abacker/Desktop/WedriverJasmine/node_modules/@wdio/allure-reporter/build/utils.js:77:60)
+                    at AllureReporter.onTestFail (/Users/abacker/Desktop/WedriverJasmine/node_modules/@wdio/allure-reporter/build/index.js:182:46)
+                    at AllureReporter.&lt;anonymous> (/Users/abacker/Desktop/WedriverJasmine/node_modules/@wdio/reporter/build/index.js:101:18)
+                    at AllureReporter.emit (events.js:315:20)
+                    at AllureReporter.EventEmitter.emit (domain.js:467:12)
+                    at /Users/abacker/Desktop/WedriverJasmine/node_modules/@wdio/runner/build/reporter.js:36:56
+                    at Array.forEach (&lt;anonymous>)
+                    at BaseReporter.emit (/Users/abacker/Desktop/WedriverJasmine/node_modules/@wdio/runner/build/reporter.js:36:25)
+                    at JasmineReporter.emit (/Users/abacker/Desktop/WedriverJasmine/node_modules/@wdio/jasmine-framework/build/reporter.js:135:24)
+                    at JasmineReporter.specDone (/Users/abacker/Desktop/WedriverJasmine/node_modules/@wdio/jasmine-framework/build/reporter.js:80:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

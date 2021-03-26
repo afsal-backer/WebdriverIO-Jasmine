@@ -1,0 +1,128 @@
+{
+  "id": {
+    "sessionId": "274cfd6e81370a9f626641cdf25ab308",
+    "error": {
+      "error": "no such element",
+      "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#tox-edit-area__iframe\"}\n  (Session info: chrome=89.0.4389.90)",
+      "stacktrace": "0   chromedriver                        0x0000000108aabb59 chromedriver + 2595673\n1   chromedriver                        0x000000010915fb33 chromedriver + 9624371\n2   chromedriver                        0x000000010885b773 chromedriver + 169843\n3   chromedriver                        0x000000010888bacd chromedriver + 367309\n4   chromedriver                        0x00000001088b89c4 chromedriver + 551364\n5   chromedriver                        0x00000001088a772d chromedriver + 481069\n6   chromedriver                        0x00000001088b6c46 chromedriver + 543814\n7   chromedriver                        0x00000001088a79f3 chromedriver + 481779\n8   chromedriver                        0x0000000108881cd6 chromedriver + 326870\n9   chromedriver                        0x0000000108882ba7 chromedriver + 330663\n10  chromedriver                        0x0000000108a79b09 chromedriver + 2390793\n11  chromedriver                        0x0000000108a86bcc chromedriver + 2444236\n12  chromedriver                        0x0000000108a866ee chromedriver + 2442990\n13  chromedriver                        0x0000000108a60832 chromedriver + 2287666\n14  chromedriver                        0x0000000108a8763f chromedriver + 2446911\n15  chromedriver                        0x0000000108a6f299 chromedriver + 2347673\n16  chromedriver                        0x0000000108a9e8b9 chromedriver + 2541753\n17  chromedriver                        0x0000000108ab1008 chromedriver + 2617352\n18  libsystem_pthread.dylib             0x00007fff6850ad36 _pthread_start + 125\n19  libsystem_pthread.dylib             0x00007fff6850758f thread_start + 15\n"
+    },
+    "selector": "#tox-edit-area__iframe",
+    "parent": {
+      "sessionId": "274cfd6e81370a9f626641cdf25ab308",
+      "capabilities": {
+        "acceptInsecureCerts": true,
+        "browserName": "chrome",
+        "browserVersion": "89.0.4389.90",
+        "chrome": {
+          "chromedriverVersion": "89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294})",
+          "userDataDir": "/var/folders/8v/z503nb6n6m9byyvlb6g5bf9c0000gp/T/.com.google.Chrome.2VLEnc"
+        },
+        "goog:chromeOptions": {
+          "debuggerAddress": "localhost:53574"
+        },
+        "networkConnectionEnabled": false,
+        "pageLoadStrategy": "normal",
+        "platformName": "mac os x",
+        "proxy": {},
+        "setWindowRect": true,
+        "strictFileInteractability": false,
+        "timeouts": {
+          "implicit": 0,
+          "pageLoad": 300000,
+          "script": 30000
+        },
+        "unhandledPromptBehavior": "dismiss and notify",
+        "webauthn:extension:largeBlob": true,
+        "webauthn:virtualAuthenticators": true
+      },
+      "config": {
+        "specs": [
+          "./test/specs/myFirstTest.js"
+        ],
+        "suites": {},
+        "exclude": [],
+        "logLevel": "silent",
+        "logLevels": {},
+        "excludeDriverLogs": [],
+        "bail": 0,
+        "waitforInterval": 500,
+        "waitforTimeout": 10000,
+        "framework": "jasmine",
+        "reporters": [
+          "spec",
+          [
+            "allure",
+            {
+              "outputDir": "allure-results"
+            }
+          ]
+        ],
+        "services": [
+          "chromedriver"
+        ],
+        "maxInstances": 10,
+        "maxInstancesPerCapability": 100,
+        "filesToWatch": [],
+        "connectionRetryTimeout": 120000,
+        "connectionRetryCount": 3,
+        "execArgv": [],
+        "runnerEnv": {},
+        "runner": "local",
+        "specFileRetries": 0,
+        "specFileRetriesDelay": 0,
+        "specFileRetriesDeferred": false,
+        "reporterSyncInterval": 100,
+        "reporterSyncTimeout": 5000,
+        "cucumberFeaturesWithLineNumbers": [],
+        "autoCompileOpts": {
+          "autoCompile": true,
+          "tsNodeOpts": {
+            "transpileOnly": true
+          },
+          "babelOpts": {}
+        },
+        "mochaOpts": {
+          "timeout": 10000
+        },
+        "jasmineOpts": {
+          "defaultTimeoutInterval": 60000
+        },
+        "cucumberOpts": {
+          "timeout": 10000
+        },
+        "onPrepare": [],
+        "onWorkerStart": [],
+        "before": [],
+        "beforeSession": [],
+        "beforeSuite": [],
+        "beforeHook": [],
+        "beforeTest": [],
+        "beforeCommand": [],
+        "afterCommand": [],
+        "afterTest": [
+          null
+        ],
+        "afterHook": [],
+        "afterSuite": [],
+        "afterSession": [],
+        "after": [],
+        "onComplete": [],
+        "onReload": [],
+        "beforeFeature": [],
+        "beforeScenario": [],
+        "beforeStep": [],
+        "afterStep": [],
+        "afterScenario": [],
+        "afterFeature": [],
+        "baseUrl": "https://the-internet.herokuapp.com/",
+        "_": [
+          "./wdio.conf.js"
+        ],
+        "$0": "node_modules/.bin/wdio",
+        "ignoredWorkerServices": []
+      },
+      "_NOT_FIBER": true
+    },
+    "isReactElement": false
+  }
+}

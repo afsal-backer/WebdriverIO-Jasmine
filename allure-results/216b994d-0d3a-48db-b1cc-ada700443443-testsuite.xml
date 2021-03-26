@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616513403143' stop='1616513407540'>
+    <name>Test Heroku</name>
+    <title>Test Heroku</title>
+    <test-cases>
+        <test-case start='1616513403143' status='failed' stop='1616513407540'>
+            <name>Test homepage elements</name>
+            <title>Test homepage elements</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps>
+                <step start='1616513403145' status='passed' stop='1616513407045'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='c29fb4e2-e9fc-49bf-8306-86a988e4b68a-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616513407046' status='passed' stop='1616513407059'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='83ece1cc-a299-431a-9308-fe087574931d-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='11da7984-6919-4314-8688-8c8bb946cf3b-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616513407063' status='passed' stop='1616513407076'>
+                    <name>GET /session/:sessionId/element/0a9482d8-bdeb-42bd-890f-857ec274b2f8/text</name>
+                    <title>GET /session/:sessionId/element/0a9482d8-bdeb-42bd-890f-857ec274b2f8/text</title>
+                    <attachments>
+                        <attachment title='Response' source='afd638ea-6e00-4a28-98e2-f45b1e230880-attachment.json' type='application/json' size='31'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616513407077' status='passed' stop='1616513407538'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='419ce652-6fcc-42a6-99c0-a37d6aa37d60-attachment.png' type='image/png' size='228957'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: internetPage.liText is not a function</message>
+                <stack-trace>TypeError: internetPage.liText is not a function
+                    at UserContext.&lt;anonymous> (/Users/abacker/Desktop/WedriverJasmine/test/herokuTest.js:12:22)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

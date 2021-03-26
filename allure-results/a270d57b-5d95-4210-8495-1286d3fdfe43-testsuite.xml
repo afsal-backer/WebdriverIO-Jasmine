@@ -1,0 +1,144 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616502268116' stop='1616502272568'>
+    <name>to open heroku app</name>
+    <title>to open heroku app</title>
+    <test-cases>
+        <test-case start='1616502268117' status='pending' stop='1616502268118'>
+            <name>open the homepage</name>
+            <title>open the homepage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1616502268118' status='failed' stop='1616502272568'>
+            <name>Window handles</name>
+            <title>Window handles</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps>
+                <step start='1616502268120' status='passed' stop='1616502271853'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='1c706ec6-cd36-4038-9710-c9b2420f9d5e-attachment.json' type='application/json' size='57'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616502271853' status='passed' stop='1616502271855'>
+                    <name>GET /session/:sessionId/window</name>
+                    <title>GET /session/:sessionId/window</title>
+                    <attachments>
+                        <attachment title='Response' source='5dd6192c-b215-4f11-8cfc-801892daba93-attachment.json' type='application/json' size='43'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616502271856' status='passed' stop='1616502271868'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ce1569a8-a8f9-4db9-95b6-afa5e46dfb26-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='c6e394b7-5265-4d69-8480-68e2da231677-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616502271873' status='passed' stop='1616502272002'>
+                    <name>POST /session/:sessionId/element/262808fe-32a4-4f2c-98da-b41e2d6e6424/click</name>
+                    <title>POST /session/:sessionId/element/262808fe-32a4-4f2c-98da-b41e2d6e6424/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1616502272002' status='passed' stop='1616502272003'>
+                    <name>GET /session/:sessionId/window</name>
+                    <title>GET /session/:sessionId/window</title>
+                    <attachments>
+                        <attachment title='Response' source='c55d8337-ba15-48b6-8606-aba4fe06f948-attachment.json' type='application/json' size='43'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616502272003' status='passed' stop='1616502272027'>
+                    <name>POST /session/:sessionId/window</name>
+                    <title>POST /session/:sessionId/window</title>
+                    <attachments>
+                        <attachment title='Request' source='9f3977d3-232e-4fee-bdfb-b5106b7fc169-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616502272027' status='passed' stop='1616502272095'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='aa108ea4-6039-4dd2-bda8-9e9ace21a00c-attachment.json' type='application/json' size='66'/>
+                        <attachment title='Response' source='a7bcd93b-155b-465d-909c-9306d4fdffff-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616502272097' status='passed' stop='1616502272112'>
+                    <name>GET /session/:sessionId/element/8ef0f413-adcb-4250-96ac-c6ea2dd21fa1/text</name>
+                    <title>GET /session/:sessionId/element/8ef0f413-adcb-4250-96ac-c6ea2dd21fa1/text</title>
+                    <attachments>
+                        <attachment title='Response' source='465baa07-ee61-4c05-8445-b5783f623d5c-attachment.json' type='application/json' size='22'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616502272114' status='passed' stop='1616502272566'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='34c201b4-082a-48fa-acea-c40fb209817e-attachment.png' type='image/png' size='83603'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>CompoundError: One or more errors occurred. ---
+                    Error: Expected 'Opening a new window' to be 'New Window'.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (/Users/abacker/Desktop/WedriverJasmine/test/specs/myFirstTest.js:58:28)
+                --- End of stack trace ---
+                    error properties: Object({ matcherName: 'toBe', passed: false, expected: 'New Window', actual: 'Opening a new window' })
+                    Error: Expected 'Opening a new window' to be 'New Window'.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (/Users/abacker/Desktop/WedriverJasmine/test/specs/myFirstTest.js:58:28)
+                --- End of stack trace ---</message>
+                <stack-trace>Error: CompoundError: One or more errors occurred. ---
+                    Error: Expected 'Opening a new window' to be 'New Window'.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (/Users/abacker/Desktop/WedriverJasmine/test/specs/myFirstTest.js:58:28)
+                --- End of stack trace ---
+                    error properties: Object({ matcherName: 'toBe', passed: false, expected: 'New Window', actual: 'Opening a new window' })
+                    Error: Expected 'Opening a new window' to be 'New Window'.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (/Users/abacker/Desktop/WedriverJasmine/test/specs/myFirstTest.js:58:28)
+                --- End of stack trace ---
+                    at Object.exports.getErrorFromFailedTest (/Users/abacker/Desktop/WedriverJasmine/node_modules/@wdio/allure-reporter/build/utils.js:77:60)
+                    at AllureReporter.onTestFail (/Users/abacker/Desktop/WedriverJasmine/node_modules/@wdio/allure-reporter/build/index.js:182:46)
+                    at AllureReporter.&lt;anonymous> (/Users/abacker/Desktop/WedriverJasmine/node_modules/@wdio/reporter/build/index.js:101:18)
+                    at AllureReporter.emit (events.js:315:20)
+                    at AllureReporter.EventEmitter.emit (domain.js:467:12)
+                    at /Users/abacker/Desktop/WedriverJasmine/node_modules/@wdio/runner/build/reporter.js:36:56
+                    at Array.forEach (&lt;anonymous>)
+                    at BaseReporter.emit (/Users/abacker/Desktop/WedriverJasmine/node_modules/@wdio/runner/build/reporter.js:36:25)
+                    at JasmineReporter.emit (/Users/abacker/Desktop/WedriverJasmine/node_modules/@wdio/jasmine-framework/build/reporter.js:135:24)
+                    at JasmineReporter.specDone (/Users/abacker/Desktop/WedriverJasmine/node_modules/@wdio/jasmine-framework/build/reporter.js:80:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

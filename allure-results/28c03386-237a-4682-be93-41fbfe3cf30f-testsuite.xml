@@ -1,0 +1,108 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616576832977' stop='1616576842113'>
+    <name>Element actions</name>
+    <title>Element actions</title>
+    <test-cases>
+        <test-case start='1616576832978' status='passed' stop='1616576841267'>
+            <name>Should click</name>
+            <title>Should click</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps>
+                <step start='1616576832981' status='passed' stop='1616576837856'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='cc3c3db0-1a4e-488f-978d-2a76e77a4e3e-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616576837858' status='passed' stop='1616576837870'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='02f9f47b-696a-4a21-b1b4-212d925b08f4-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='dbcc0869-ef99-4c2c-abf5-749bd56c7f1a-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616576837876' status='passed' stop='1616576837882'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='6d0e6fc3-00bf-4a08-9a0c-c32b362cc27a-attachment.json' type='application/json' size='8337'/>
+                        <attachment title='Response' source='3a6d036c-cdfd-4633-b957-b20225bdf875-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616576837883' status='passed' stop='1616576837889'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='14b2495f-9d43-47c2-a0b1-133f96e6b394-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='23837296-b59a-44e7-a67b-d1d399f7da33-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616576837891' status='passed' stop='1616576838254'>
+                    <name>POST /session/:sessionId/element/e1900b51-b9c4-4284-8be9-aa5c6b5af2de/click</name>
+                    <title>POST /session/:sessionId/element/e1900b51-b9c4-4284-8be9-aa5c6b5af2de/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1616576841257' status='passed' stop='1616576841265'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='7d45c9e0-30d3-4a32-8dcc-9ef2ded8c97d-attachment.json' type='application/json' size='43'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1616576841267' status='failed' stop='1616576842112'>
+            <name>Get text after waiting for display</name>
+            <title>Get text after waiting for display</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps>
+                <step start='1616576841268' status='passed' stop='1616576841588'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='bf7cd89e-5c40-44ea-8030-dd4144323322-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616576841588' status='passed' stop='1616576842111'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='c046bd01-9f85-421d-ad84-6c04c4684080-attachment.png' type='image/png' size='228957'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: Cannot read property 'firstLink' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'firstLink' of undefined
+                    at getOneText (/Users/abacker/Desktop/WedriverJasmine/pages/internet.page.js:20:14)
+                    at UserContext.&lt;anonymous> (/Users/abacker/Desktop/WedriverJasmine/test/elementActions.test.js:14:21)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
